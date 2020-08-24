@@ -8,40 +8,66 @@ header{
 	width: 100%;
 	height: 60px;
 	background-color:blue;
+	
 }
 .logo{
-	width: 15%;
+width: 48px;
+	height: 48px;
 	margin-top: 5px;
 	margin-left: 50px;
 	float: left;
 }
 .nav{
-float: left;	
+float: left;
+	width: 40%;
 margin-left: 50px;
 list-style: none;
-
-	margin-top: 10px;
+margin-top: 10px;
 }
 
-.nav a {
+.bt {
 float: left;
 margin-right:30px;
 padding: 10px;
 color: aliceblue;
-font-size: 19px;	
+font-size: 17px;	
 text-decoration: none;
 font-weight: 400;
 font-family: sans-serif;
 
 }
 
-.nav a:hover{
+.bt:hover{
 	background-color: antiquewhite;
 	color: black;
 	
 }
 
-.mas:hover{
+
+.mas{
+	background-color: azure;
+display: flex;
+	flex-direction: column;
+}
+
+.bt4{
+	background-color: aquamarine;
+}
+.botones4{
+	
+	margin-left: 20px;
+	list-style: none;
+	display: none;
+}
+.botones4 a{
+	text-decoration: none;
+}
+
+.botones4 li{
+	
+	
+}
+/*.mas:hover{
 padding-right: 80px;
 padding-bottom: 150px;	
-}
+}*/
