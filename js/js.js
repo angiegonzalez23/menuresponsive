@@ -7,5 +7,11 @@ function desplegarBoton4 (){
 	
 };
 
+function ocultarBoton4 (){
+	Botonlist4.classList.remove('mostrar');
+	
+};
+
 
 boton4.addEventListener("mouseover",desplegarBoton4,true);
+boton4.addEventListener("mouseout",ocultarBoton4,true);
