@@ -18,10 +18,18 @@ width: 48px;
 	float: left;
 	cursor: pointer;
 }
+.logor{
+	display: none;
+	width: 48px;
+	height: 48px;
+	margin-top: 5px;
+	margin-left:10px;
+	float: right;
+	cursor: pointer;
+}
 .nav{
 float: left;
-	width: 500px;
-	
+width: 500px;	
 margin-left: 50px;
 list-style: none;
 margin-top: 10px;
@@ -76,8 +84,6 @@ background-color: rgba(231,76,60,1);
 }
 
 .botones4 a li{
-	
-	
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-left: 30px;
@@ -86,5 +92,52 @@ background-color: rgba(231,76,60,1);
 }
 .botones4 a li:hover{
 	background-color: brown;
+	
+}
+
+#iconomenu{
+width: 40px;
+float: left;
+margin-top: 5px;
+margin-left: left;
+display:none;
+}
+
+.none{
+	display: none;
+}
+@media screen and (max-width: 767px){
+	
+.logo{
+	display: none;
+}
+	
+.logor{
+display: block;	
+}
+	
+	
+.nav{	
+width: 80%;
+padding-left: 0px;
+margin-left: 10px;
+box-sizing: border-box;
+}
+	
+.bt{
+float: none;
+margin-right:0px;
+padding: 10px;
+color: black;
+font-size: 17px;	
+text-decoration: none;
+background-color: aquamarine;
+}
+	
+#iconomenu{
+display: block;
+float: none;
+	}
+	
 	
 }
