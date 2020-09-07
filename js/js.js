@@ -15,3 +15,19 @@ function ocultarBoton4 (){
 
 boton4.addEventListener("mouseover",desplegarBoton4,true);
 boton4.addEventListener("mouseout",ocultarBoton4,true);
+
+
+/*programación menu */
+
+var iconomenumobil= document.getElementById("iconomenu");
+var nav = document.getElementById("navs");
+var botonesnav= document.getElementById("ulnav");
+
+
+function desplegarmenumobil(){
+nav.classList.add("activarNav");
+botonesnav.classList.remove("none");
+	
+};
+
+iconomenumobil.addEventListener("click",desplegarmenumobil,true);
